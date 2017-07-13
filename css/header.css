@@ -1,0 +1,22 @@
+header .navbar-default {
+    background: none;
+    border: 0px;
+}
+
+a, a:active, a:focus, a:active {
+    text-decoration: none !important;
+}
+
+header .navbar-brand {
+    padding-top: 5px;
+}
+
+header .navbar-default .navbar-nav {
+    padding-top: 10px;
+}
+
+header .navbar {
+    margin-bottom: 0px;
+    border: 0px;
+}
+
