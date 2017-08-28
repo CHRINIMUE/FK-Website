@@ -1,0 +1,6 @@
+baseurl: /fk-website
+exclude: ['README.md']
+
+# Site settings
+title: Friedenskirche MM
+subtitle: "1,2,3, ..."
