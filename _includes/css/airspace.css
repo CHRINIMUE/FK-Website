@@ -192,7 +192,11 @@ footer p {
 }
 footer a {
   color: #595959;
+  font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+ footer a:link{
+   text-decoration-line: none;
+ }
 footer .footer-manu {
   padding-bottom: 25px;
 }
@@ -207,7 +211,12 @@ footer .footer-manu ul li {
 footer .footer-manu ul li a {
   display: inline-block;
   color: #494949;
+  letter-spacing: 1px;
+  -webkit-transition: all ease .35s;
+  -moz-transition: all ease .35s;
+  transition: all ease .35s;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: #{{ site.data.template.color.primary }};
+  outline: 0;
 }
