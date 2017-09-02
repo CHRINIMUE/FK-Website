@@ -30,3 +30,205 @@
 #intro {
     padding: 100px 0;
 }
+
+/* The css code for the /paralex/*.html parts */
+  #box-gottesdienste {
+      height: 95vh;
+      width: 100%;
+      background-image: url(img/idrum.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: table;
+      background-attachment: fixed;
+  }
+
+
+  #gottesdienste-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-left: -10%;
+      margin-top: 10%;
+      padding: 2%;
+      color: black;
+  }
+
+
+@media screen and (max-width:1450px) {
+  #gottesdienste-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-left: 2%;
+      margin-top: 10%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #gottesdienste-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 10%;
+      margin-left: 5%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #gottesdienste-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      color: black;
+      height: 95vh;
+  }
+}
+
+
+#box-rr {
+  height: 95vh;
+  width: 100%;
+  background-image: url(img/irr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  background-attachment: fixed;
+}
+
+#rr-conf {
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(163,214,245,0.75);
+  margin-left: -10%;
+  margin-top: 10%;
+  padding: 2%;
+  color: black;
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width:1450px){
+  #rr-conf {
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(163,214,245,0.75);
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 2%;
+    color: black;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #rr-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 2%;
+      margin-left: 5%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #rr-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      color: black;
+      height: 95vh;
+      margin-bottom: 0%;
+  }
+}
+
+#box-matchless {
+  height: 95vh;
+  width: 100%;
+  background-image: url(img/imatchless.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+#matchless-conf {
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(163,214,245,0.75);
+  margin-left: 50%;
+  margin-top: 10%;
+  padding: 2%;
+  color: black;
+}
+
+@media screen and (max-width:1450px){
+  #matchless-conf {
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(163,214,245,0.75);
+    margin-top: 10%;
+    padding: 2%;
+    color: black;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #matchless-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 2%;
+      margin-left: 50%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #matchless-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      color: black;
+      height: 95vh;
+  }
+}
+
+/* End of paralex boxes ... */
+
+/* Beginning of the css code for the footer */
+
+footer {
+  background: #F5F5F5;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+footer a {
+  color: #595959;
+}
+footer .footer-manu {
+  padding-bottom: 25px;
+}
+footer .footer-manu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-manu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+footer .footer-manu ul li a {
+  display: inline-block;
+  color: #494949;
+}
+footer .footer-manu ul li a:hover {
+  color: #000;
+}

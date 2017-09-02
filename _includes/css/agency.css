@@ -76,6 +76,10 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    padding: 10px;
+    margin: 10px;
+    border-color: #{{ site.data.template.color.primary }};
+    border-radius: 25px;
 }
 
 .btn-primary:hover,
@@ -865,4 +869,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
-
