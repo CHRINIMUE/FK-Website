@@ -1,0 +1,222 @@
+#feature {
+    background: url("/img/featue-bg.jpg");
+        background-color: rgba(0, 0, 0, 0);
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 150px 0;
+}
+
+#intro {
+    padding: 100px 0;
+}
+
+/* The css code for the /paralex/*.html parts */
+  #box-gottesdienste {
+      height: 95vh;
+      width: 100%;
+      background-image: url(img/idrum.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: table;
+      background-attachment: fixed;
+  }
+
+
+  #gottesdienste-conf {
+      background: rgb(34,34,34); /* for IE */
+      background: rgba(163,214,245,0.75);
+      margin-left: -10%;
+      margin-top: 10%;
+      padding: 2%;
+      color: black;
+  }
+
+
+@media screen and (max-width:1450px) {
+  #gottesdienste-conf {
+      margin-left: 2%;
+      margin-top: 10%;
+      padding: 2%;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #gottesdienste-conf {
+      margin-top: 10%;
+      margin-left: 5%;
+      padding: 2%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #gottesdienste-conf {
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      height: 95vh;
+  }
+}
+
+
+#box-rr {
+  height: 95vh;
+  width: 100%;
+  background-image: url(img/irr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  background-attachment: fixed;
+}
+
+#rr-conf {
+  background: rgb(90, 178, 105); /* for IE */
+  background: rgba(90, 178, 105,0.75);
+  margin-left: -10%;
+  margin-top: 10%;
+  padding: 2%;
+  color: white;
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width:1450px){
+  #rr-conf {
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 2%;
+    color: black;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #rr-conf{
+      margin-top: 2%;
+      margin-left: 5%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #rr-conf {
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      color: black;
+      height: 95vh;
+      margin-bottom: 0%;
+  }
+}
+
+#box-matchless {
+  height: 95vh;
+  width: 100%;
+  background-image: url(img/imatchless.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+#matchless-conf {
+  background: rgb(229, 229, 229); /* for IE */
+  background: rgba(229, 229, 229,0.75);
+  margin-left: 50%;
+  margin-top: 10%;
+  padding: 2%;
+  color: black;
+}
+
+@media screen and (max-width:1450px){
+  #matchless-conf {
+    margin-top: 10%;
+    padding: 2%;
+    color: black;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #matchless-conf {
+      margin-top: 2%;
+      margin-left: 50%;
+      padding: 2%;
+      color: black;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #matchless-conf {
+      margin-top: 0%;
+      margin-left: 0%;
+      padding: 2%;
+      color: black;
+      height: 95vh;
+  }
+}
+
+/* End of paralex boxes ... */
+
+/* Beginning of the css code for the footer */
+
+footer {
+  background: #F5F5F5;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+footer a {
+  color: #595959;
+  font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ footer a:link{
+   text-decoration-line: none;
+ }
+footer .footer-manu {
+  padding-bottom: 25px;
+}
+footer .footer-manu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-manu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+footer .footer-manu ul li a {
+  display: inline-block;
+  color: #494949;
+  letter-spacing: 1px;
+  -webkit-transition: all ease .35s;
+  -moz-transition: all ease .35s;
+  transition: all ease .35s;
+}
+footer .footer-manu ul li a:hover {
+  color: #{{ site.data.template.color.primary }};
+  outline: 0;
+}
