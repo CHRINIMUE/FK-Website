@@ -55,34 +55,25 @@
 
 @media screen and (max-width:1450px) {
   #gottesdienste-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-left: 2%;
       margin-top: 10%;
       padding: 2%;
-      color: black;
   }
 }
 
 @media screen and (max-width:1250px) {
   #gottesdienste-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-top: 10%;
       margin-left: 5%;
       padding: 2%;
-      color: black;
   }
 }
 
 @media screen and (max-width:768px) {
   #gottesdienste-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-top: 0%;
       margin-left: 0%;
       padding: 2%;
-      color: black;
       height: 95vh;
   }
 }
@@ -99,19 +90,17 @@
 }
 
 #rr-conf {
-  background: rgb(34,34,34); /* for IE */
-  background: rgba(163,214,245,0.75);
+  background: rgb(90, 178, 105); /* for IE */
+  background: rgba(90, 178, 105,0.75);
   margin-left: -10%;
   margin-top: 10%;
   padding: 2%;
-  color: black;
+  color: white;
   margin-bottom: 1%;
 }
 
 @media screen and (max-width:1450px){
   #rr-conf {
-    background: rgb(34,34,34); /* for IE */
-    background: rgba(163,214,245,0.75);
     margin-top: 10%;
     margin-left: 2%;
     padding: 2%;
@@ -120,9 +109,7 @@
 }
 
 @media screen and (max-width:1250px) {
-  #rr-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
+  #rr-conf{
       margin-top: 2%;
       margin-left: 5%;
       padding: 2%;
@@ -132,8 +119,6 @@
 
 @media screen and (max-width:768px) {
   #rr-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-top: 0%;
       margin-left: 0%;
       padding: 2%;
@@ -155,8 +140,8 @@
 }
 
 #matchless-conf {
-  background: rgb(34,34,34); /* for IE */
-  background: rgba(163,214,245,0.75);
+  background: rgb(229, 229, 229); /* for IE */
+  background: rgba(229, 229, 229,0.75);
   margin-left: 50%;
   margin-top: 10%;
   padding: 2%;
@@ -165,8 +150,6 @@
 
 @media screen and (max-width:1450px){
   #matchless-conf {
-    background: rgb(34,34,34); /* for IE */
-    background: rgba(163,214,245,0.75);
     margin-top: 10%;
     padding: 2%;
     color: black;
@@ -175,8 +158,6 @@
 
 @media screen and (max-width:1250px) {
   #matchless-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-top: 2%;
       margin-left: 50%;
       padding: 2%;
@@ -186,8 +167,6 @@
 
 @media screen and (max-width:768px) {
   #matchless-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
       margin-top: 0%;
       margin-left: 0%;
       padding: 2%;
