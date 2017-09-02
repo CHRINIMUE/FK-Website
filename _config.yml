@@ -1,4 +1,4 @@
-baseurl: /fk-website
+baseurl: /FKW
 exclude: ['README.md']
 
 # Site settings
