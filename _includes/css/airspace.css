@@ -87,6 +87,7 @@
   background-repeat: no-repeat;
   display: table;
   background-attachment: fixed;
+  background-position: center
 }
 
 #rr-conf {
@@ -136,6 +137,7 @@
   background-repeat: no-repeat;
   display: table;
   background-attachment: fixed;
+  background-position: center;
 
 }
 
@@ -184,6 +186,7 @@ footer {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
+  border-top: 2px solid rgb(150, 125, 125);
 }
 footer p {
   font-size: 13px;
