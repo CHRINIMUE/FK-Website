@@ -90,6 +90,7 @@ h6 {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+    text-decoration: none;
 }
 
 .btn-primary:active,
