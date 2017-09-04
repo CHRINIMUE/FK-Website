@@ -66,18 +66,28 @@ header.masthead .post-heading .meta a {
   font-size:30px
  }
 }
-
-img.blur{
-  -webkit-filter: blur(3px);
-	filter: blur(3px);
+.blur {
+  overflox: hidden;
 }
-
+.blur img {
+    filter: blur(6px);
+        -webkit-filter: blur(6px);
+        -moz-filter: blur(6px);
+        -o-filter: blur(6px);
+        -ms-filter: blur(6px);
+    background-size: cover;
+    position: absolute;
+    background: center center no-repeat fixed;
+    left: 0px;
+}
+/* The stoff for {{content}} */
 .content {
     padding-top: 50px;
     padding-bottom: 50px;
-    /*background-color: #F5F5F5; Remove to get more contrast for the content & get the box feeling*/
+    background-color: #FFFFFF;
     font-size: 20px;
     color: #333;
+    position: relative;
 }
 p {
     font-size: 15px;
