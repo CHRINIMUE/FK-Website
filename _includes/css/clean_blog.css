@@ -96,6 +96,10 @@ p {
 
 /* CSS for section_boxes.html */
 
+.box_content {
+
+}
+
 .wrapper.style1 {
     background-color: #EEE;
     color: #777;
@@ -129,7 +133,7 @@ p {
 .feature .image img {
     max-width: 100%;
 }
-.feature .content {
+.feature .box_content {
     padding: 2em 3em 0.1em 3em;
     width: 52%;
 }
@@ -145,7 +149,11 @@ p {
     margin-bottom: 6em;
 }
 .feature h3 {
-    margin-top: -3em;
+    margin-top: -10%;
+    color: #333;
+}
+.feature p {
+    margin-bottom: 20px;
 }
 
 /* CSS for section_boxes_style2.html */
