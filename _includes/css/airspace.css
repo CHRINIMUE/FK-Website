@@ -187,6 +187,9 @@ footer {
   padding-top: 48px;
   padding-bottom: 55px;
   border-top: 2px solid rgb(150, 125, 125);
+  position: absolute;
+  width: 100%;
+
 }
 footer p {
   font-size: 13px;
