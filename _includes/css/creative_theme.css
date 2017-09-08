@@ -1,6 +1,8 @@
 .zw-info {
     background-color: #cc4f23;
     color: white;
+    position: relative;
+    width: 100%;
 }
 
 aside {
