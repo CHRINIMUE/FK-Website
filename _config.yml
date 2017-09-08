@@ -1,6 +1,14 @@
-baseurl: /FKW
-exclude: ['README.md']
-
-# Site settings
+---
 title: Friedenskirche Memmingen
-subtitle: "1,2,3, ..."
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: "/FKW"
+exclude:
+- README.md
+subtitle: 1,2,3, ...
