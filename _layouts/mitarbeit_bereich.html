@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html>
+
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+      {% include header.html %}
+      {% include about/top.html %}
+      {% include zw_info.html %}
+      <div class="content">
+        <div class="container">
+  	       <div class="row">
+  		         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+  			            {{ content }}
+  		         </div>
+  	       </div>
+         </div>
+      </div>
+      {% include mitarbeit/ansprechpartner.html %}
+      {% include mitarbeit/mitarbeit_ubersicht.html %}
+      {% include footer.html %}
+
+    {% include js.html %}
+
+    </body>
+</html>
