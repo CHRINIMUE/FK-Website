@@ -13,7 +13,19 @@
         <div class="container">
   	       <div class="row">
   		         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-  			            {{ content }}
+                 <section id="main">
+                   <header>
+                     {% assign leader = site.data.structure[page.structure] %}
+                     <span class="avatar"><img src="/img/bereiche_ansprechpartner/{{ leader.link }}.jpg" alt=""></span>
+                     <h2>{{ leader.name }}</h2>
+                     <p>{{ leader.position }}</p>
+                   </header>
+                 </section>
+
+
+                    {{ content }}
+
+
   		         </div>
   	       </div>
          </div>

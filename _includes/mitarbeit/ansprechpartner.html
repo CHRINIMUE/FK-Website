@@ -1,11 +1,12 @@
 <div id="wrapper">
-  {% assign author = site.data.people[page.author] %}
+
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="/img/bereiche_ansprechpartner/{{ author.link }}.jpg" alt=""></span>
-							<h1>{{ author.name }}</h1>
-							<p>{{ author.description }}</p>
+              {% assign leader = site.data.structure[page.structure] %}
+							<span class="avatar"><img src="/img/bereiche_ansprechpartner/{{ leader.link }}.jpg" alt=""></span>
+							<h2>{{ leader.name }}</h2>
+							<p>{{ leader.position }}</p>
 						</header>
 						<!--
 						<hr />
