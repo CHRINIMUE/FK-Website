@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: "/FKW"
+baseurl: "/FKW/"
 exclude:
 - README.md
 subtitle: 1,2,3, ...
