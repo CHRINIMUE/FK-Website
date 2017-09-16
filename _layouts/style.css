@@ -3,4 +3,6 @@
 {% include css/agency.css %}
 {% include css/airspace.css %}
 {% include css/creative_theme.css %}
+{% include css/clean_blog.css %}
+{% include css/identity.css %}
 {{ content }}
