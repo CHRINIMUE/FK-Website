@@ -1,17 +1,8 @@
----
-layout: mitarbeit_bereich
-title: Lobpreis
-description: In einem Lobpreisteam mitmachen
-permalink: /mitarbeit/lobpreis.html
-asp: lobpreis
----
-<h2>Lobpreisteams</h2>
-<h3>Allgmeine Infos</h3>
-<p>Text der zum Testen da ist ... hier muss stehen, um was es in dem Dienstbereich geht</p>
-<h3>Noch eine Überschrift</h3>
-{% assign leader = site.data.asp[page.asp] %}
+<div class="aufbau">
+  {% assign leaders = site.data.structure %}
 <div class="aufbau_content">
   <div class="at-grid" data-column="3">
+    {% for leader in leaders %}
     <div class="at-column">
       <div class="at-user">
         <div class="at-user__avatar"><img src="/img/bereiche_ansprechpartner/{{ leader.link }}.jpg"></div>
@@ -42,5 +33,7 @@ asp: lobpreis
         </ul>
       </div>
     </div>
+          {% endfor %}
   </div>
+</div>
 </div>
