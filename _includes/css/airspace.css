@@ -14,7 +14,6 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -183,11 +182,9 @@
       margin-bottom: 0%;
   }
 }
-
 /* End of paralex boxes ... */
 
 /* Beginning of the css code for the footer */
-
 footer {
   background: #F5F5F5;
   text-align: center;
@@ -196,7 +193,6 @@ footer {
   border-top: 2px solid rgb(150, 125, 125);
   position: absolute;
   width: 100%;
-
 }
 footer p {
   font-size: 13px;
