@@ -12,6 +12,12 @@ header.masthead .page-heading,header.masthead .post-heading,header.masthead .sit
  padding:200px 0 150px;
  color:#fff
 }
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading h1 {
+  text-shadow: black 5px 0px 15px;
+}
+header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading .subheading {
+  text-shadow: black 1px 1px 1px;
+}
 @media only screen and (min-width:768px) {
  header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading {
   padding:200px 0;
@@ -79,8 +85,12 @@ header.masthead .post-heading .meta a {
     background-size: cover;
     position: absolute;
     background: center center no-repeat fixed;
-    left: 0px;
+    left: -2%;
     width: 100%;
+    height: 95vh;
+}
+.site-heading {
+
 }
 /* The stuff for {{content}} */
 .content {
@@ -173,8 +183,6 @@ p {
     width: calc(100% + 2em);
     margin: -2em 0 0 -2em;
     margin-bottom: 0px;
-    width: 64em;
-    margin: 0 auto;
     max-width: calc(100% - 4em);
     padding: 4em 0 2em 0;
 }
@@ -224,7 +232,7 @@ ul.actions li:last-child {
 .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #666666;
-    color: #444444 !important;
+    color: #444444;
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-appearance: none;
