@@ -5,4 +5,5 @@
 {% include css/creative_theme.css %}
 {% include css/clean_blog.css %}
 {% include css/identity.css %}
+{% include css/phantom.css %}
 {{ content }}
