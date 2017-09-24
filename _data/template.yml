@@ -1,11 +1,15 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 2068C6 # old Code: 20a2b9 
+  primary: 2068C6 # old Code: 20a2b9
   secondary: 1a7e90
   secondary-dark: 333
   muted: 777
   background: fff
   warning: cc4f23
+
+  #text-color
+  light: ffffff
+  dark: 000000
 
 # Font Families
 font:
