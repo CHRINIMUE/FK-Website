@@ -1,0 +1,60 @@
+- name: Magna
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style1
+  img: pic01.jpg
+- name: lorem
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style2
+  img: pic02.jpg
+- name: feugiat
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style3
+  img: pic03.jpg
+- name: Tempus
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style4
+  img: pic04.jpg
+- name: Aliquam
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style5
+  img: pic05.jpg
+- name: veroeros
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style6
+  img: pic06.jpg
+- name: ipsum
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style1
+  img: pic07.jpg
+- name: dolor
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style2
+  img: pic08.jpg
+- name: Nullam
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style3
+  img: pic09.jpg
+- name: Ultricies
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style4
+  img: pic10.jpg
+- name: Dictum
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style5
+  img: pic11.jpg
+- name: Pretium
+  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+  link: #
+  style: style6
+  img: pic12.jpg
