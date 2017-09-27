@@ -1,46 +1,46 @@
-- name: Magna
-  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
-  link: #
+- name: Gewächshaus
+  info: Gemeinsam im Glauben wachsen
+  link: gewachshaus
   style: style1
   img: pic01.jpg
-- name: lorem
-  info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
-  link: #
+- name: Hauskreise
+  info: Wöchentliches Treffen mit Geschwister im Glauben
+  link: hauskreise
   style: style2
   img: pic02.jpg
-- name: feugiat
+- name: Flüchtlingshilfe
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style3
   img: pic03.jpg
-- name: Tempus
+- name: Matchless
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style4
   img: pic04.jpg
-- name: Aliquam
+- name: Royal Ranger
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style5
   img: pic05.jpg
-- name: veroeros
+- name: Hünerberginitiative
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style6
   img: pic06.jpg
-- name: ipsum
+- name: Hausaufgabenhilfe
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style1
   img: pic07.jpg
-- name: dolor
+- name: Gitarrenkurs
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
   link: #
   style: style2
   img: pic08.jpg
-- name: Nullam
+- name: Fußball
   info: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
-  link: #
+  link: fussball
   style: style3
   img: pic09.jpg
 - name: Ultricies
