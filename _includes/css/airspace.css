@@ -31,30 +31,28 @@
 }
 
 /* The css code for the /paralex/*.html parts */
-  #box-gottesdienste {
-      height: 95vh;
-      width: 100%;
-      background-image: url(img/idrum.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: table;
-      background-attachment: fixed;
-  }
-
-
-  #gottesdienste-conf {
-      background: rgb(34,34,34); /* for IE */
-      background: rgba(163,214,245,0.75);
-      margin-left: -10%;
-      margin-top: 10%;
-      padding: 2%;
-      color: black;
-      margin-bottom: 1%;
-  }
-  #gottesdienste-conf a p {
+#box-gottesdienste {
+    height: 95vh;
+    width: 100%;
+    background-image: url(img/idrum.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    background-attachment: fixed;
+    border-bottom: 3px solid white;
+}
+#gottesdienste-conf {
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(163,214,245,0.75);
+    margin-left: -10%;
+    margin-top: 10%;
+    padding: 2%;
     color: black;
-  }
-
+    margin-bottom: 1%;
+}
+#gottesdienste-conf a p {
+  color: black;
+}
 
 @media screen and (max-width:1450px) {
   #gottesdienste-conf {
@@ -82,7 +80,6 @@
   }
 }
 
-
 #box-rr {
   height: 95vh;
   width: 100%;
@@ -91,7 +88,8 @@
   background-repeat: no-repeat;
   display: table;
   background-attachment: fixed;
-  background-position: center
+  background-position: center;
+  border-bottom: 3px solid white;
 }
 
 #rr-conf {
@@ -142,7 +140,6 @@
   display: table;
   background-attachment: fixed;
   background-position: center;
-
 }
 
 #matchless-conf {
