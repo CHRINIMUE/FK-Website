@@ -178,6 +178,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #{{ site.data.template.color.background }};
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.6));
 }
 
 .navbar-default .navbar-brand {
