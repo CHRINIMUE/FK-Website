@@ -1,6 +1,6 @@
 header.masthead {
  background:no-repeat center center;
- background-color:#777;
+ background-color:linear-gradient(to top, rgba(130, 147, 150, 0.1), rgba(181, 205, 212, 0.45));
  background-attachment:scroll;
  -webkit-background-size:cover;
  -moz-background-size:cover;

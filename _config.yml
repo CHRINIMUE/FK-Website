@@ -1,6 +1,7 @@
 ---
 title: Friedenskirche Memmingen
 timezone: Europe/Berlin
+
 collections:
   posts:
     title: Posts
@@ -8,7 +9,11 @@ collections:
   uploads:
     title: Uploads
     output: true
+
 baseurl: "/FKW/"
 exclude:
 - README.md
 subtitle: 1,2,3, ...
+
+plugins:
+  - jekyll-sitemap
