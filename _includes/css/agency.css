@@ -169,74 +169,60 @@ fieldset[disabled] .btn-xl.active {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
-
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
-
 .navbar-default {
     border-color: transparent;
-    /*background-color: #{{ site.data.template.color.background }};
-    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.6));*/
-    background-color: transparent;
+    background-color: white;
 }
-
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #{{ site.data.template.color.secondary }};
 }
-
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
-
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #{{ site.data.template.color.background }};
 }
-
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
 }
-
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
     -o-transition: all ease .35s;
     -ms-transition: all ease .35s;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
 }
-
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.data.template.color.primary }};
 }
-
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.primary }};
 }
-
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #{{ site.data.template.color.secondary-dark }};
@@ -252,31 +238,29 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        background-color: transparent;
     }
-
+    .navbar-default .nav li a {
+      color: white;
+    }
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
-
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #{{ site.data.template.color.background }};
         color: black;
     }
-
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-
     .navbar-default.navbar-shrink .nav li a {
-
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -307,7 +291,6 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
