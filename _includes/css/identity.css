@@ -295,11 +295,16 @@ ul.icons li a {
   transition: margin 0.2s ease, opacity 0.2s ease;
 }
 .at-social__item {
-  display: inline-block;
-  margin: 0 10px;
+  display: inline;
 }
 .at-social__item a {
   display: block;
+  color: #313435;
+  text-decoration-line: none;
+}
+.at-social__item a:hover {
+  display: block;
+  color: #313435;
 }
 .at-social__item svg {
   fill: #515F65;
@@ -406,4 +411,38 @@ ul.icons li a {
   min-width: 11.11111%;
   -ms-flex-preferred-size: 11.11111%;
       flex-basis: 11.11111%;
+}
+
+/* For ASP_Part */
+
+.asp_part {
+  height: 200%;
+  background-color: #f0f3f9;
+  align-items: center;
+
+  background-attachment: fixed;
+  background-image: url("https://templated.co/items/demos/retrospect/images/pic11.jpg");
+  background-size: cover;
+
+}
+.asp_contact {
+  margin: 10% 0px 10% auto;
+}
+.asp_info {
+  margin: 10% 0px 10% 0px;
+  color: white !important;
+}
+.asp_info p {
+  color: white;
+}
+
+@media screen and (max-width: 984px) {
+
+}
+
+@media screen and (max-width: 793px) {
+  .asp_contact{
+    min-width: 90%;
+    max-width: 330px;
+  }
 }

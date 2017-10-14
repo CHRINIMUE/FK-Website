@@ -1,6 +1,6 @@
 header.masthead {
  background:no-repeat center center;
- background-color:#777;
+ background-color:linear-gradient(to top, rgba(130, 147, 150, 0.1), rgba(181, 205, 212, 0.45));
  background-attachment:scroll;
  -webkit-background-size:cover;
  -moz-background-size:cover;
@@ -166,6 +166,55 @@ p {
 .feature p {
     margin-bottom: 20px;
 }
+
+    @media screen and (max-width: 1280px) {
+			.feature {
+				margin-bottom: 4em;
+			}
+				.feature .box_content {
+					padding: 1em 2em 0.1em 2em;
+				}
+		}
+
+    @media screen and (max-width: 1050px){
+      .wrapper > .inner {
+          margin: 0 auto;
+          width: 65em;
+      }
+    }
+
+		@media screen and (max-width: 980px) {
+			.feature.left, .feature.right {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+      .wrapper > .inner {
+          margin: 0 auto;
+          width: 90%;
+      }
+			.feature .image {
+				width: 100%;
+			}
+			.feature .image img {
+				width: 100%;
+			}
+			.feature .box_content {
+				padding: 7em 2em 2em 2em;
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+      .feature {
+				margin-bottom: 2em;
+			}
+			.feature .box_content {
+				padding: 4em 1em 2em 1em;
+			}
+		}
+
 
 /* CSS for section_boxes_style2.html */
 .main {
