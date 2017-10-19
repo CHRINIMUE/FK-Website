@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
     }
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #{{ site.data.template.color.background }};
+        background-color: #fffffff7;
         color: black;
     }
     .navbar-default.navbar-shrink .navbar-brand {
