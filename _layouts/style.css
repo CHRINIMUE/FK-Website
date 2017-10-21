@@ -6,4 +6,5 @@
 {% include css/clean_blog.css %}
 {% include css/identity.css %}
 {% include css/phantom.css %}
+{% include css/events.css %}
 {{ content }}
