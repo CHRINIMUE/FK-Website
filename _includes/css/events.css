@@ -1,11 +1,6 @@
 .events {
-    height: 70vh;
+    height: 620px;
     background-color: #5a8eba;;
-}
-.events-down {
-    height: 40vh;
-    margin-top: -15vh;
-    background-color: white;
 }
 .ui.cards {
     display: -webkit-box;
@@ -14,7 +9,7 @@
     margin: -.875em -.5em;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 10vh;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
