@@ -49,6 +49,12 @@
 
 /* No Touch devices */
 
+@media screen and (max-width: 480px){
+  #cd-vertical-nav{
+    display: none;
+  }
+}
+
 #cd-vertical-nav ul {
   list-style: none;
 }
