@@ -61,7 +61,7 @@
 .cd-nav-trigger {
   display: none;
 }
-
+max-widht: 480px
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;

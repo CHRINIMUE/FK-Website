@@ -228,8 +228,10 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.secondary }};
 }
-
-@media(min-width:768px) {
+/* Ursprüngliche Größe - Verkleinert wegen falscher Anzeige (Friedneskirche + Links untereinander nicht nebeneinander angezeigt)
+@media(min-width:768px)
+*/
+@media(min-width:768px){
     .navbar-default {
         padding: 25px 0;
         border: 0;
