@@ -17,7 +17,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: .875em .5em;
+    /*margin: .875em .5em; */
     float: none;
 }
 .ui.card, .ui.cards > .card {
