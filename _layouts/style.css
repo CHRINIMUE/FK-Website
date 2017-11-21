@@ -9,4 +9,5 @@
 {% include css/events.css %}
 {% include css/uber_sp.css %}
 {% include css/footer_big.css %}
+{% include css/kontakt.css %}
 {{ content }}
