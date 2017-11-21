@@ -8,4 +8,5 @@
 {% include css/phantom.css %}
 {% include css/events.css %}
 {% include css/uber_sp.css %}
+{% include css/footer_big.css %}
 {{ content }}

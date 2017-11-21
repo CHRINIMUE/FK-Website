@@ -1,0 +1,112 @@
+#myFooter {
+    background-color: #e6e6e6;
+    color: #{{ site.data.template.color.dark }};
+    padding: 0;
+}
+#myFooter .row {
+    margin-bottom: 60px;
+}
+#myFooter .info{
+    text-align: justify;
+    color: #{{ site.data.template.color.dark }};
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#myFooter h5 {
+    font-size: 18px;
+    color: #{{ site.data.template.color.dark }};
+    font-weight: bold;
+    margin-top: 30px;
+}
+#myFooter .logo{
+    margin-top: 10px;
+}
+#myFooter .second-bar .logo a{
+    color: #{{ site.data.template.color.primary }};
+    font-size: 36px;
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 5px;
+    padding: 5px 5px 5px 0px;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    text-transform: none;
+}
+#myFooter a {
+    color: #{{ site.data.template.color.dark }};
+    text-decoration: none;
+}
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #{{ site.data.template.color.dark2 }};
+}
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #94a2ae;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #{{ site.data.template.color.dark }};
+    padding: 10px;
+    transition: 0.2s;
+}
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+#myFooter .footer-manu-big ul li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #494949;
+  letter-spacing: 1px;
+  -webkit-transition: all ease .35s;
+  -moz-transition: all ease .35s;
+  transition: all ease .35s;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#myFooter .footer-manu-big {
+  padding: 1px 1px 1px 1px;
+      vertical-align: middle;
+}
+#myFooter .footer-manu-big ul {
+  float: right;
+}
+#myFooter .footer-manu-big ul li {
+  display: inline-block;
+}
+#myFooter .copyright p,
+#myFooter .copyright a {
+    font-size: 10px;
+    color: white;
+    padding: 0;
+}
+#myFooter .copyright {
+  float: left;
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .info{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 991px) {
+  #myFooter .second-bar .logo a {
+    float: none;
+    margin-top: 10px;
+  }
+  #myFooter .second-bar .copyright{
+    float: none;
+  }
+  #myFooter .footer-manu-big ul {
+    float: none;
+  }
+}
