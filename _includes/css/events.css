@@ -1,6 +1,7 @@
 .events {
     height: 620px;
-    background-color: #5a8eba;;
+    background-color: #5a8eba;
+    overflow: scroll;
 }
 .ui.cards {
     display: -webkit-box;

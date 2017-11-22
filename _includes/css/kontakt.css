@@ -158,3 +158,151 @@ b, strong {
   width: 100%;
   height: 30rem;
 }
+
+#kontaktform {
+  background-image: url('{{ site.baseurl }}/media/fixed_picture/pages/kontakt/kontaktform.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+
+button, input, optgroup, select, textarea {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+.card[data-background-color="orange"] {
+    background-color: #f96332;
+}
+.card-signup {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.card-signup .header {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.title.title-up {
+    text-transform: uppercase;
+}
+.card-signup .social-line {
+    margin-top: 20px;
+    text-align: center;
+}
+.card-signup .card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: auto;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.input-group, .form-group {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+[data-background-color] .input-group-addon, [data-background-color] .form-group.form-group-no-border .input-group-addon, [data-background-color] .input-group.form-group-no-border .input-group-addon {
+    color: rgba(255, 255, 255, 0.8);
+}
+.input-group-addon i {
+    width: 17px;
+}
+[data-background-color] .form-group.form-group-no-border .form-control, [data-background-color] .input-group.form-group-no-border .form-control {
+    background-color: #fff3;
+    color: #FFFFFF;
+    border: 1px solid #dce4ec;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(220, 228, 236);
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-color: rgb(220, 228, 236);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child) {
+    border-left: 0 none;
+}
+.form-group.form-group-no-border .form-control, .form-group.form-group-no-border .form-control + .input-group-addon, .input-group.form-group-no-border .form-control, .input-group.form-group-no-border .form-control + .input-group-addon {
+    background-color: rgba(222, 222, 222, 0.3);
+    border: medium none;
+        border-left-width: medium;
+        border-left-style: none;
+        border-left-color: currentcolor;
+}
+.form-group .input-group-addon + .form-control, .form-group .input-group-addon ~ .form-control, .input-group .input-group-addon + .form-control, .input-group .input-group-addon ~ .form-control {
+    padding: 10px 19px 11px 16px;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+[data-background-color] .form-group.form-group-no-border .form-control, [data-background-color] .input-group.form-group-no-border .form-control {
+    background-color: #fff3;
+    color: #FFFFFF;
+}
+.card-signup .footer {
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+.btn-lg {
+    font-size: 1em;
+    border-radius: 0.25rem;
+    padding: 15px 48px;
+}
+.btn-round {
+    border-width: 1px;
+    border-radius: 30px !important;
+    padding: 11px 23px;
+}
+.btn-neutral {
+    background-color: #FFFFFF;
+    color: #f96332;
+}
+.input-group-addon {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    color: #a9d1f8;
+    text-align: center;
+    background-color: #fff3;
+    border: 1px solid #dce4ec;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(220, 228, 236);
+    border-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+}
