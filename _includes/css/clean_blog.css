@@ -1,6 +1,6 @@
 header.masthead {
  background:no-repeat center center;
- background-color:linear-gradient(to top, rgba(130, 147, 150, 0.1), rgba(181, 205, 212, 0.45));
+ /*background-color:linear-gradient(to top, rgba(130, 147, 150, 0.1), rgba(181, 205, 212, 0.45));*/
  background-attachment:scroll;
  -webkit-background-size:cover;
  -moz-background-size:cover;
@@ -73,24 +73,14 @@ header.masthead .post-heading .meta a {
   font-size:30px
  }
 }
-.blur {
-  overflow: hidden;
-}
-.blur img {
-    filter: blur(6px);
-        -webkit-filter: blur(6px);
-        -moz-filter: blur(6px);
-        -o-filter: blur(6px);
-        -ms-filter: blur(6px);
-    background-size: cover;
+header.masthead .overlay {
     position: absolute;
-    background: center center no-repeat fixed;
-    left: -2%;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    height: 95vh;
-}
-.site-heading {
-
+    background-color: #212529cc;
+    opacity: .5;
 }
 /* The stuff for {{content}} */
 .content {
@@ -112,7 +102,7 @@ p {
 
 }
 .wrapper.style1 {
-    background-color: #9e9e9e;;
+    background-color: #b0cee9;
     color: #777;
 }
 .wrapper {

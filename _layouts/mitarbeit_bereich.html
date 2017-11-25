@@ -7,22 +7,22 @@
 
     <body id="page-top" class="index">
       {% include header.html %}
-      {% include about/top.html %}
+      {% include top.html %}
       {% include zw_info.html %}
       <div class="content">
         <div class="container">
   	       <div class="row">
-
+             <div class="col-xl-8 col-xl-offset-2 col-md-10 col-md-offset-1">
 
             {{ content }}
 
-
+            </div>
   	       </div>
          </div>
       </div>
       {% include mitarbeit/asp_part.html %}
       {% include mitarbeit/mitarbeit_ubersicht.html %}
-      {% include footer.html %}
+      {% include footer_big.html %}
 
     {% include js.html %}
 

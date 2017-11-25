@@ -1,0 +1,13 @@
+<header class="masthead" style="background-image: url('{{ site.baseurl }}/media/fixed_picture/header/{{ page.header-img }}.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ page.description }}{% endif %}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

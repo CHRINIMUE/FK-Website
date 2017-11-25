@@ -1,0 +1,97 @@
+#myFooter {
+    background-color: #F5F5F5;
+    color: #{{ site.data.template.color.dark }};
+    padding: 0px;
+    position: relative;
+}
+#myFooter .row {
+    margin-bottom: 40px;
+}
+#myFooter .info{
+    text-align: justify;
+    color: #{{ site.data.template.color.dark }};
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#myFooter h5 {
+    font-size: 18px;
+    color: #{{ site.data.template.color.dark }};
+    font-weight: bold;
+    margin-top: 30px;
+}
+#myFooter a {
+    text-decoration: none;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #595959;
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #{{ site.data.template.color.dark2 }};
+}
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #e7f2f6;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-top: solid 1px #0003;
+}
+#myFooter .second-bar a {
+    font-size: 20px;
+    color: #{{ site.data.template.color.dark }};
+    padding: 10px;
+    transition: 0.2s;
+}
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+#myFooter .footer-manu-big ul li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #{{ site.data.template.color.dark }}; #494949
+  letter-spacing: 1px;
+  -webkit-transition: all ease .35s;
+  -moz-transition: all ease .35s;
+  transition: all ease .35s;
+  text-transform: uppercase;
+}
+#myFooter .footer-manu-big {
+  padding: 1px 1px 1px 1px;
+}
+#myFooter .footer-manu-big ul {
+  margin-top: 10px;
+}
+#myFooter .footer-manu-big ul li {
+  display: inline-block;
+}
+#myFooter .copyright a {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #{{ site.data.template.color.primary }};
+    font-size: 14px;
+    padding: 0px;
+}
+#myFooter .copyright p {
+    font-size: 14px;
+    color: #{{ site.data.template.color.dark }};
+    padding: 0;
+}
+#myFooter .copyright {
+  margin-top: 5px;
+}
+footer {
+  /*background: #F5F5F5;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+  position: absolute;
+  width: 100%;*/
+    border-top: solid 1px #0003;
+}

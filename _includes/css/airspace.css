@@ -49,13 +49,19 @@
 
 /* No Touch devices */
 
+@media screen and (max-width: 480px){
+  #cd-vertical-nav{
+    display: none;
+  }
+}
+
 #cd-vertical-nav ul {
   list-style: none;
 }
 .cd-nav-trigger {
   display: none;
 }
-
+max-widht: 480px
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -419,47 +425,3 @@
 /* End of paralex boxes ... */
 
 /* Beginning of the css code for the footer */
-footer {
-  background: #F5F5F5;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
-  border-top: 2px solid rgb(150, 125, 125);
-  position: absolute;
-  width: 100%;
-}
-footer p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #919191;
-}
-footer a {
-  color: #595959;
-  font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
- footer a:link{
-   text-decoration-line: none;
- }
-footer .footer-manu {
-  padding-bottom: 25px;
-}
-footer .footer-manu ul {
-  margin: 0px;
-  padding: 0px;
-}
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
-  letter-spacing: 1px;
-  -webkit-transition: all ease .35s;
-  -moz-transition: all ease .35s;
-  transition: all ease .35s;
-}
-footer .footer-manu ul li a:hover {
-  color: #{{ site.data.template.color.primary }};
-  outline: 0;
-}

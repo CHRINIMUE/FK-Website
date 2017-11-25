@@ -179,13 +179,13 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary }};
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.light }};
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
@@ -228,8 +228,10 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.secondary-dark }};
     background-color: #{{ site.data.template.color.secondary }};
 }
-
-@media(min-width:768px) {
+/* Ursprüngliche Größe - Verkleinert wegen falscher Anzeige (Friedneskirche + Links untereinander nicht nebeneinander angezeigt)
+@media(min-width:768px)
+*/
+@media(min-width:768px){
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -254,11 +256,12 @@ fieldset[disabled] .btn-xl.active {
     }
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #{{ site.data.template.color.background }};
+        background-color: #fffffff7;
         color: black;
     }
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: #{{ site.data.template.color.primary }};
     }
     .navbar-default.navbar-shrink .nav li a {
     text-transform: uppercase;
@@ -283,7 +286,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: linear-gradient(to top, rgba(130, 147, 150, 0.1), rgba(181, 205, 212, 0.45)), url('/FKW/img/serveimage.jpeg');
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.23)), url('/FKW/img/serveimage.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -294,7 +297,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    color: black;
+    color: white;
 }
 
 header .intro-text .intro-lead-in {
